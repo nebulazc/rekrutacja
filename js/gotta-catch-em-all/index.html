@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Pokedex</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
   </head>
   <body>
     <main>
       <section class="filters">
-        <h1>Pokedex</h1>
+        <h1 class="has-text-centered has-text-weight-bold is-size-2">Pokedex</h1>
         <form id="form-filters">
             <label><input id="grass" type="checkbox" checked/><span>grass</span></label>
             <label><input id="poison" type="checkbox" checked/><span>poison</span></label>
@@ -35,7 +36,7 @@
           </div>
         </form>
       </section>
-      <section class="pokemons"></section>
+      <section class="pokemons is-flex is-flex-direction-row is-flex-wrap-wrap"></section>
     </main>
     <script src="./data.js"></script>
     <script src="./index.js"></script>

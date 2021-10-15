@@ -8,6 +8,10 @@ h1 {
   margin-bottom: 16px;
 }
 
+.pokemon-container {
+  width: 296px;
+}
+
 main {
   width: 100%;
   max-width: 960px;
